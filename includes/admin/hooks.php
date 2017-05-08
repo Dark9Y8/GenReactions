@@ -29,5 +29,5 @@ add_action( 'admin_enqueue_scripts', 'gen_admin_enqueue_styles' );
 add_action( 'admin_enqueue_scripts', 'gen_admin_enqueue_scripts' );
 
 // Metaboxes.
-//add_action( 'add_meta_boxes',       'gen_add_fake_reactions_metabox', 10 ,2 );
-//add_action( 'save_post',            'gen_save_fake_reactions_metabox' );
+add_action( 'add_meta_boxes',       'gen_add_fake_reactions_metabox', 10 ,2 );
+add_action( 'save_post',            'gen_save_fake_reactions_metabox' );
