@@ -52,10 +52,6 @@ $gen_reactions 	= gen_get_reactions();
 			</a>
 		</li>
 	<?php endforeach; ?>
-	<?php
-$str = 'PGRpdiBjbGFzcz0id3lyLXJlYWN0aW9uLWNyZWRpdCIgc3R5bGU9InRleHQtYWxpZ246cmlnaHQ7IGZvbnQtc2l6ZTogOXB4OyBmb250LWZhbWlseTogIk9wZW4gU2FucyIsInNhbnMtc2VyaWYiOyBtYXJnaW4tdG9wOiAtMTVweDsiPjxhIGhyZWY9Imh0dHBzOi8vd3d3LmdlbnVwZGF0ZXMuY29tL2dlbnJlYWN0aW9ucyIgdGFyZ2V0PSJfYmxhbmsiPlBvd2VyZWQgQnkgR2VuVXBkYXRlczwvYT48L2Rpdj4=';
-echo base64_decode($str);
-?>
 	</ul>
 </aside>
 <?php endif; ?>
