@@ -1,0 +1,93 @@
+.gen-icon-items {
+  margin: 0 0 20px;
+  list-style: none;
+  font-size: 0;
+}
+
+.gen-icon-item {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px 5px;
+
+  text-align: center;
+  vertical-align: top;
+
+  font-size: 14px;
+}
+
+.gen-reaction {
+  display: inline-block;
+}
+
+
+
+.gen-reaction-icon {
+  display: table;
+  margin: 0 auto;
+
+  position: relative;
+
+  text-align: center;
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #000;
+}
+
+.gen-reaction-icon > img {
+  display: block;
+}
+
+.gen-reaction-icon-text {
+  display: none;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+
+  transform: translateY(-0.5em) rotate(-30deg);
+}
+
+.gen-reaction-icon-with-text .gen-reaction-icon-text {
+  display: block;
+}
+
+.gen-reaction-icon-with-text img {
+  visibility: hidden;
+}
+
+
+.gen-reaction-label {
+  display: block;
+}
+
+.gen-reaction-icon-with-text {
+  position: relative;
+
+  border-radius: 50%;
+}
+
+.gen-reaction-icon-with-text .gen-reaction-icon {
+  visibility: hidden;
+}
+
+/* Preview */
+.gen-reaction-icon-preview {
+  min-height: 200px;
+}
+
+.gen-reaction-icon-preview .gen-reaction-icon {
+  margin: 0;
+
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+
+  -webkit-transform: scale(5);
+          transform: scale(5);
+}
+
