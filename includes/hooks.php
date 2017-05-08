@@ -26,4 +26,4 @@ add_action( 'wp_enqueue_scripts', 'gen_enqueue_styles' );
 add_action( 'wp_enqueue_scripts', 'gen_enqueue_scripts' );
 
 // Fake reactions.
-//add_filter( 'gen_post_votes', 'gen_fake_reaction_count', 11, 2 );
+add_filter( 'gen_post_votes', 'gen_fake_reaction_count', 11, 2 );
