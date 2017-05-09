@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-GenReactions is an innovative plugin of its kind. It allows your visitors to react on each and every post. They can express their feelings just then "like" or "comment".
+<a href="https://www.genupdates.com/genreactions/">GenReactions</a> is an innovative plugin of its kind. It allows your visitors to react on each and every post. They can express their feelings just then "like" or "comment".
 
 = Features: =
 
